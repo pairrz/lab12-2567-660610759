@@ -55,6 +55,7 @@ export default function Home() {
   const [theme, setTheme] = useState(THEMES.LIGHT);
   const [lang, setLang] = useState(LANGS.EN);
 
+
   const setLightTheme = () => setTheme(THEMES.LIGHT);
   const setDarkTheme = () => setTheme(THEMES.DARK);
   const toggleTheme = () =>
@@ -78,7 +79,7 @@ export default function Home() {
           <Controller />
         </LangContext.Provider>
       </ThemeContext.Provider>
-      <Footer year="2023" fullName="Chayanin Suatap" studentId="660610999" />
+      <Footer year="2024" fullName="Dararat Buayim" studentId="660610759" />
     </div>
   );
 }
